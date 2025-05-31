@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.codingshuttle.anuj.week1Intro</groupId>
 	<artifactId>IntroToSpringBoot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2S-SNAPSHOT</version>
 	<name>IntroToSpringBoot</name>
 	<description>Demo project for Spring Boot for Week1 Intro</description>
 	<url/>
