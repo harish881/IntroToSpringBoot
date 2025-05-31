@@ -7,11 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class IntroToSpringBootApplication implements CommandLineRunner {
-	@Autowired
-	Apple obj1 ;
+//	@Autowired
+//	Apple obj1 ;
+//
+//	@Autowired
+//	Apple obj2 ;
 
 	@Autowired
-	Apple obj2 ;
+	DBService dbService;
 
 
 	public static void main(String[] args) {
@@ -23,10 +26,12 @@ public class IntroToSpringBootApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		obj1.eatApple();
-		obj2.eatApple();
+//		obj1.eatApple();
+//		obj2.eatApple();
+//
+//		System.out.println(obj1.hashCode());
+//		System.out.println(obj2.hashCode());
 
-		System.out.println(obj1.hashCode());
-		System.out.println(obj2.hashCode());
+		System.out.println(dbService.getData());
 	}
 }
